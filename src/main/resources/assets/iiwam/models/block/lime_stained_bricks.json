@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+      "all": "iiwam:blocks/lime_stained_bricks"
+    }
+}

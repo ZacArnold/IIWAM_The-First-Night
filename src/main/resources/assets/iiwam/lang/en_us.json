@@ -1,0 +1,33 @@
+{
+    "item.iiwam.catgut": "Catgut",
+    "item.iiwam.dough": "Dough",
+    "item.iiwam.flour": "Flour",
+    "item.iiwam.roasted_carrot": "Roasted Carrot",
+    "item.iiwam.sweet_berry_pie": "Sweet Berry Pie",
+
+    "block.iiwam.andesite_cobblestone": "Andesite Cobblestone",
+    "block.iiwam.granite_cobblestone": "Granite Cobblestone",
+    "block.iiwam.diorite_cobblestone": "Diorite Cobblestone",
+    "block.iiwam.basalt_cobblestone": "Basalt Cobblestone",
+    "block.iiwam.jasper_cobblestone": "Jasper Cobblestone",
+    "block.iiwam.limestone_cobblestone": "Limestone Cobblestone",
+    "block.iiwam.marble_cobblestone": "Marble Cobblestone",
+    "block.iiwam.slate_cobblestone": "Slate Cobblestone",
+
+    "block.iiwam.black_stained_bricks": "Black Stained Bricks",
+    "block.iiwam.blue_stained_bricks": "Blue Stained Bricks",
+    "block.iiwam.brown_stained_bricks": "Brown Stained Bricks",
+    "block.iiwam.cyan_stained_bricks": "Cyan Stained Bricks",
+    "block.iiwam.gray_stained_bricks": "Gray Stained Bricks",
+    "block.iiwam.green_stained_bricks": "Green Stained Bricks",
+    "block.iiwam.light_blue_stained_bricks": "Light Blue Stained Bricks",
+    "block.iiwam.light_gray_stained_bricks": "Light Gray Stained Bricks",
+    "block.iiwam.lime_stained_bricks": "Lime Stained Bricks",
+    "block.iiwam.magenta_stained_bricks": "Magenta Stained Bricks",
+    "block.iiwam.orange_stained_bricks": "Orange Stained Bricks",
+    "block.iiwam.pink_stained_bricks": "Pink Stained Bricks",
+    "block.iiwam.purple_stained_bricks": "Purple Stained Bricks",
+    "block.iiwam.red_stained_bricks": "Red Stained Bricks",
+    "block.iiwam.white_stained_bricks": "White Stained Bricks",
+    "block.iiwam.yellow_stained_bricks": "Yellow Stained Bricks"
+}

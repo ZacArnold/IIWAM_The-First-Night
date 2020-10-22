@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "stained_bricks",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bricks"
+    },
+    "X": {
+      "item": "minecraft:purple_dye"
+    }
+  },
+  "result": {
+    "item": "iiwam:purple_stained_bricks",
+    "count": 8
+  }
+}

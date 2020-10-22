@@ -1,0 +1,19 @@
+﻿{
+    "type": "crafting_shaped",
+    "pattern": [
+        "#A",
+        "A#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:stripped_acacia_log"
+        },
+        "A": {
+            "item": "minecraft:acacia_wood"
+        }
+    },
+    "result": {
+        "item": "minecraft:acacia_log",
+        "count": 4
+    }
+}

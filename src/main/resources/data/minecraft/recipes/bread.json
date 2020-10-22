@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+
+    {
+      "item": "iiwam:dough",
+      "count": 3
+    }
+  ],
+  "result": {
+    "item": "minecraft:bread"
+  }
+}

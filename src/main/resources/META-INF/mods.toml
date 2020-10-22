@@ -1,0 +1,48 @@
+modLoader="javafml"
+
+loaderVersion="[31,)"
+
+issueTrackerURL="http://my.issue.tracker/"
+
+[[mods]]
+
+modId="iiwam"
+
+version="1.15.2-1.0.0"
+
+displayName="IIWAM"
+
+updateJSONURL="http://myurl.me/"
+
+displayURL="https://www.curseforge.com/minecraft/mc-mods/iiwam"
+
+logoFile="IIWAM Logo.png"
+
+credits="Thanks to SystemZee, SimplySarc, and The Minecraft Abnormals Team for inspiration."
+
+authors="Thy Creeper King"
+
+description='''
+IIWAM is a collection of features that are designed to fit within vanilla Minecraft. This vanilla-style experience tries to stay as true as possible to vanilla Minecraft.
+'''
+
+
+
+[[dependencies.iiwam]] #optional
+    # the modid of the dependency
+    modId="forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="[31,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+
+[[dependencies.iiwam]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"

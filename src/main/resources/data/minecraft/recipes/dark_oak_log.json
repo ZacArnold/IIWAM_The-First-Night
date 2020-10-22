@@ -1,0 +1,19 @@
+﻿{
+    "type": "crafting_shaped",
+    "pattern": [
+        "#D",
+        "D#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:stripped_dark_oak_log"
+        },
+        "D": {
+            "item": "minecraft:dark_oak_wood"
+        }
+    },
+    "result": {
+        "item": "minecraft:dark_oak_log",
+        "count": 4
+    }
+}
