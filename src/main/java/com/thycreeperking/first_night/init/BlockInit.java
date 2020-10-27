@@ -1,10 +1,9 @@
-package com.thycreeperking.iiwam.init;
+package com.thycreeperking.first_night.init;
 
-import com.thycreeperking.iiwam.IIWAM;
+import com.thycreeperking.first_night.first_night;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.material.MaterialColor;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -15,8 +14,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 import net.minecraftforge.registries.ObjectHolder;
 
-@ObjectHolder(IIWAM.MOD_ID)
-@Mod.EventBusSubscriber(modid = IIWAM.MOD_ID, bus = Bus.MOD)
+@ObjectHolder(first_night.MOD_ID)
+@Mod.EventBusSubscriber(modid = first_night.MOD_ID, bus = Bus.MOD)
 public class BlockInit
 {
     //Cobblestone Variants

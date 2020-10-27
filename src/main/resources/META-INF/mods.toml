@@ -1,48 +1,51 @@
-modLoader="javafml"
 
-loaderVersion="[31,)"
+modLoader="javafml" #mandatory
 
-issueTrackerURL="http://my.issue.tracker/"
+loaderVersion="[32,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 
-[[mods]]
+license="All rights reserved"
 
-modId="iiwam"
+issueTrackerURL="http://my.issue.tracker/" #optional
 
-version="1.15.2-1.0.0"
+[[mods]] #mandatory
 
-displayName="IIWAM"
+modId="first_night" #mandatory
 
-updateJSONURL="http://myurl.me/"
+version="1.16.1-1.0.0" #mandatory
 
-displayURL="https://www.curseforge.com/minecraft/mc-mods/iiwam"
+displayName="IIWAM - The First Night" #mandatory
+
+updateJSONURL="http://myurl.me/" #optional
+
+displayURL="http://example.com/" #optional
 
 logoFile="IIWAM Logo.png"
 
-credits="Thanks to SystemZee, SimplySarc, and The Minecraft Abnormals Team for inspiration."
+credits="Thanks to the Abnormals Team, System Zee, and Simply Sarc for inspiration and laughs."
 
 authors="Thy Creeper King"
 
 description='''
-IIWAM is a collection of features that are designed to fit within vanilla Minecraft. This vanilla-style experience tries to stay as true as possible to vanilla Minecraft.
+The First Night is a vanilla-plus mod that enhances the first night and early game of Minecraft.
+
+THis Mod is part of The IIWAM Mod Collection.
 '''
-
-
-
-[[dependencies.iiwam]] #optional
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.first_night]] #optional
     # the modid of the dependency
     modId="forge" #mandatory
     # Does this dependency have to exist - if not, ordering below must be specified
     mandatory=true #mandatory
     # The version range of the dependency
-    versionRange="[31,)" #mandatory
+    versionRange="[32,)" #mandatory
     # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
     ordering="NONE"
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 
-[[dependencies.iiwam]]
+[[dependencies.first_night]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.15.2]"
+    versionRange="[1.16.1]"
     ordering="NONE"
     side="BOTH"

@@ -1,7 +1,6 @@
-package com.thycreeperking.iiwam.init;
+package com.thycreeperking.first_night.init;
 
-import com.google.common.eventbus.Subscribe;
-import com.thycreeperking.iiwam.IIWAM;
+import com.thycreeperking.first_night.first_night;
 
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
@@ -12,8 +11,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 import net.minecraftforge.registries.ObjectHolder;
 
-@Mod.EventBusSubscriber(modid = IIWAM.MOD_ID, bus = Bus.MOD)
-@ObjectHolder(IIWAM.MOD_ID)
+@Mod.EventBusSubscriber(modid = first_night.MOD_ID, bus = Bus.MOD)
+@ObjectHolder(first_night.MOD_ID)
 public class ItemInit
 {
     //Items
