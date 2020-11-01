@@ -22,6 +22,8 @@ public class RegistryHandler {
 
     //Items
     public static final RegistryObject<Item> CATGUT = ITEMS.register("catgut", ItemBase::new);
+    public static final RegistryObject<Item> ROASTED_CARROT = ITEMS.register("roasted_carrot", ItemBase::new);
+
 
 
 
