@@ -4,8 +4,11 @@ import com.thycreeperking.first_night.blocks.BlockItemBase;
 import com.thycreeperking.first_night.blocks.CobblestoneBlock;
 import com.thycreeperking.first_night.first_night;
 import com.thycreeperking.first_night.items.ItemBase;
+import com.thycreeperking.first_night.tools.FirstNightItemTier;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.SwordItem;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -13,6 +16,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class RegistryHandler {
 
+    //Deferred Registries
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, first_night.MOD_ID);
     public static final DeferredRegister<Block> BLOCKS =DeferredRegister.create(ForgeRegistries.BLOCKS, first_night.MOD_ID);
 
@@ -25,6 +29,11 @@ public class RegistryHandler {
     //Items
     public static final RegistryObject<Item> CATGUT = ITEMS.register("catgut", ItemBase::new);
     public static final RegistryObject<Item> ROASTED_CARROT = ITEMS.register("roasted_carrot", ItemBase::new);
+
+
+    //Tools
+    public static final RegistryObject<PickaxeItem> FLINT_PICKAXE = ITEMS.register("flint_pickaxe", () ->
+            new PickaxeItem(FirstNightItemTier.FLINT, 0, -2.8F, new Item.Properties().group(first_night.FIRST_NIGHT_TAB)));
 
 
     //Blocks

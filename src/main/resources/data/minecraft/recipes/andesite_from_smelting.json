@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "iiwam:diorite_cobblestone"
+    "item": "first_night:andesite_cobblestone"
   },
-  "result": "minecraft:diorite",
+  "result": "minecraft:andesite",
   "experience": 0.1,
   "cookingtime": 200
 }
