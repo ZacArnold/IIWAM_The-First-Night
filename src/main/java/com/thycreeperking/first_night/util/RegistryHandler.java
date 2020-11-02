@@ -1,6 +1,7 @@
 package com.thycreeperking.first_night.util;
 
-import com.sun.javafx.menu.CheckMenuItemBase;
+import com.thycreeperking.first_night.blocks.BlockItemBase;
+import com.thycreeperking.first_night.blocks.CobblestoneBlock;
 import com.thycreeperking.first_night.first_night;
 import com.thycreeperking.first_night.items.ItemBase;
 import net.minecraft.block.Block;
@@ -17,6 +18,7 @@ public class RegistryHandler {
 
     public static void init() {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 
 
@@ -25,6 +27,15 @@ public class RegistryHandler {
     public static final RegistryObject<Item> ROASTED_CARROT = ITEMS.register("roasted_carrot", ItemBase::new);
 
 
+    //Blocks
+    public static final RegistryObject<Block> ANDESITE_COBBLESTONE_BLOCK = BLOCKS.register("andesite_cobblestone", CobblestoneBlock::new);
+    public static final RegistryObject<Block> GRANITE_COBBLESTONE_BLOCK = BLOCKS.register("granite_cobblestone", CobblestoneBlock::new);
+    public static final RegistryObject<Block> DIORITE_COBBLESTONE_BLOCK = BLOCKS.register("diorite_cobblestone", CobblestoneBlock::new);
 
+
+    //Block Items
+    public static final RegistryObject<Item> ANDESITE_COBBLESTONE_BLOCK_ITEM = ITEMS.register("andesite_cobblestone", () -> new BlockItemBase(ANDESITE_COBBLESTONE_BLOCK.get()));
+    public static final RegistryObject<Item> GRANITE_COBBLESTONE_BLOCK_ITEM = ITEMS.register("granite_cobblestone", () -> new BlockItemBase(GRANITE_COBBLESTONE_BLOCK.get()));
+    public static final RegistryObject<Item> DIORITE_COBBLESTONE_BLOCK_ITEM = ITEMS.register("diorite_cobblestone", () -> new BlockItemBase(DIORITE_COBBLESTONE_BLOCK.get()));
 
 }

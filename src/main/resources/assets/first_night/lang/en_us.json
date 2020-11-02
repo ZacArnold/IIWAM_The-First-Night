@@ -1,5 +1,12 @@
 {
   "itemGroup.first_night_tab": "IIWAM - The First Night",
+
+  "block.first_night.andesite_cobblestone": "Andesite Cobblestone",
+  "block.first_night.granite_cobblestone": "Granite Cobblestone",
+  "block,first_night.diorite_cobblestone": "Diorite Cobblestone",
+
   "item.first_night.catgut": "Catgut",
   "item.first_night.roasted_carrot": "Roasted Carrot"
+
+
 }
