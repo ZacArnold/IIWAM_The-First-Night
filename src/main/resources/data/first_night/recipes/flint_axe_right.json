@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "sff",
+    "stf",
+    " t "
+  ],
+  "key":
+  {
+    "f":
+    {
+      "item": "minecraft:flint"
+    },
+    "s":
+    {
+      "item": "minecraft:string"
+    },
+    "t":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "first_night:flint_axe",
+    "count": 1
+  }
+}
