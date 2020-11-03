@@ -55,6 +55,6 @@ public enum FirstNightItemTier implements IItemTier {
 
     @Override
     public Ingredient getRepairMaterial() {
-        return repairMaterial.get();
+        return null;
     }
 }

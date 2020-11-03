@@ -6,6 +6,7 @@ import com.thycreeperking.first_night.first_night;
 import com.thycreeperking.first_night.items.ItemBase;
 import com.thycreeperking.first_night.tools.FirstNightItemTier;
 import net.minecraft.block.Block;
+import net.minecraft.item.AxeItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.SwordItem;
@@ -34,7 +35,8 @@ public class RegistryHandler {
     //Tools
     public static final RegistryObject<PickaxeItem> FLINT_PICKAXE = ITEMS.register("flint_pickaxe", () ->
             new PickaxeItem(FirstNightItemTier.FLINT, 0, -2.8F, new Item.Properties().group(first_night.FIRST_NIGHT_TAB)));
-
+    public static final RegistryObject<AxeItem> FLINT_AXE = ITEMS.register("flint_axe", () ->
+            new AxeItem(FirstNightItemTier.FLINT, 5, -3.2F, new Item.Properties().group(first_night.FIRST_NIGHT_TAB)));
 
     //Blocks
     public static final RegistryObject<Block> ANDESITE_COBBLESTONE_BLOCK = BLOCKS.register("andesite_cobblestone", CobblestoneBlock::new);
