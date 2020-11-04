@@ -49,3 +49,11 @@ THis Mod is part of The IIWAM Mod Collection.
     versionRange="[1.16.1]"
     ordering="NONE"
     side="BOTH"
+
+#Abnormals Core Dependency
+[[dependencies.first_night]]
+    modId="abnormals_core"
+    mandatory=true
+    versionRange="[2.0.7,)"
+    ordering="AFTER"
+    side="BOTH"
