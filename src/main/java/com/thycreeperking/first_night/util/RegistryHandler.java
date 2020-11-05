@@ -2,14 +2,13 @@ package com.thycreeperking.first_night.util;
 
 import com.thycreeperking.first_night.blocks.BlockItemBase;
 import com.thycreeperking.first_night.blocks.CobblestoneBlock;
-import com.thycreeperking.first_night.first_night;
+import com.thycreeperking.first_night.FirstNight;
 import com.thycreeperking.first_night.items.ItemBase;
 import com.thycreeperking.first_night.tools.FirstNightItemTier;
 import net.minecraft.block.Block;
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.PickaxeItem;
-import net.minecraft.item.SwordItem;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -18,8 +17,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class RegistryHandler {
 
     //Deferred Registries
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, first_night.MOD_ID);
-    public static final DeferredRegister<Block> BLOCKS =DeferredRegister.create(ForgeRegistries.BLOCKS, first_night.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, FirstNight.MOD_ID);
+    public static final DeferredRegister<Block> BLOCKS =DeferredRegister.create(ForgeRegistries.BLOCKS, FirstNight.MOD_ID);
 
     public static void init() {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
@@ -34,9 +33,9 @@ public class RegistryHandler {
 
     //Tools
     public static final RegistryObject<PickaxeItem> FLINT_PICKAXE = ITEMS.register("flint_pickaxe", () ->
-            new PickaxeItem(FirstNightItemTier.FLINT, 0, -2.8F, new Item.Properties().group(first_night.FIRST_NIGHT_TAB)));
+            new PickaxeItem(FirstNightItemTier.FLINT, 0, -2.8F, new Item.Properties().group(FirstNight.FIRST_NIGHT_TAB)));
     public static final RegistryObject<AxeItem> FLINT_AXE = ITEMS.register("flint_axe", () ->
-            new AxeItem(FirstNightItemTier.FLINT, 5, -3.2F, new Item.Properties().group(first_night.FIRST_NIGHT_TAB)));
+            new AxeItem(FirstNightItemTier.FLINT, 5, -3.2F, new Item.Properties().group(FirstNight.FIRST_NIGHT_TAB)));
 
     //Blocks
     public static final RegistryObject<Block> ANDESITE_COBBLESTONE_BLOCK = BLOCKS.register("andesite_cobblestone", CobblestoneBlock::new);

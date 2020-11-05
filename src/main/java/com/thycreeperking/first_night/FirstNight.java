@@ -13,12 +13,12 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 @Mod("first_night")
-public class first_night
+public class FirstNight
 {
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "first_night";
 
-    public first_night() {
+    public FirstNight() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
