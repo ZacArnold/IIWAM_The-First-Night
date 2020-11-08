@@ -1,4 +1,4 @@
-package com.thycreeperking.first_night.blocks;
+package com.thycreeperking.first_night.common.block;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
@@ -8,7 +8,7 @@ import net.minecraftforge.common.ToolType;
 public class CobblestoneBlock extends Block {
 
     //Block Properties
-    public CobblestoneBlock() {
+    public CobblestoneBlock(Properties Properties) {
         super(Block.Properties.create(Material.ROCK)
                 .hardnessAndResistance(2.0f, 30.0f)
                 .sound(SoundType.STONE)

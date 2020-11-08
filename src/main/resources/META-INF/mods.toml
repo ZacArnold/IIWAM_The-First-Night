@@ -1,35 +1,18 @@
-
-modLoader="javafml" #mandatory
-
-loaderVersion="[32,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
-
-license="All rights reserved"
-
-issueTrackerURL="http://my.issue.tracker/" #optional
-
-[[mods]] #mandatory
-
-modId="first_night" #mandatory
-
-version="1.16.1-1.0.0" #mandatory
-
-displayName="IIWAM - The First Night" #mandatory
-
-updateJSONURL="http://myurl.me/" #optional
-
-displayURL="http://example.com/" #optional
-
+modLoader="javafml"
+loaderVersion="[32,)"
 logoFile="IIWAM Logo.png"
-
+authors="Thy Creeper King"
 credits="Thanks to the Abnormals Team, System Zee, and Simply Sarc for inspiration and laughs."
 
-authors="Thy Creeper King"
-
-description='''
+[[mods]]
+    modId="first_night"
+    version="1.16.1-1.0.0"
+    displayName="IIWAM - The First Night"
+    description='''
 The First Night is a vanilla-plus mod that enhances the first night and early game of Minecraft.
 
-THis Mod is part of The IIWAM Mod Collection.
-'''
+This Mod is part of The IIWAM Mod Collection.'''
+
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.first_night]] #optional
     # the modid of the dependency

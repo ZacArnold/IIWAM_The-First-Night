@@ -5,6 +5,12 @@
   "block.first_night.granite_cobblestone": "Granite Cobblestone",
   "block.first_night.diorite_cobblestone": "Diorite Cobblestone",
 
+  "block.first_night.basalt_cobblestone": "Voidstone Cobblestone",
+  "block.first_night.jasper_cobblestone": "Jasper Cobblestone",
+  "block.first_night.limestone_cobblestone": "Limestone Cobblestone",
+  "block.first_night.marble_cobblestone": "Marble Cobblestone",
+  "block.first_night.slate_cobblestone": "Slate Cobblestone",
+
   "item.first_night.catgut": "Catgut",
   "item.first_night.roasted_carrot": "Roasted Carrot",
 
