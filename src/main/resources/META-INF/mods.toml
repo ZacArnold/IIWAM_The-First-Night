@@ -37,6 +37,6 @@ This Mod is part of The IIWAM Mod Collection.'''
 [[dependencies.first_night]]
     modId="abnormals_core"
     mandatory=true
-    versionRange="[2.0.7,)"
+    versionRange="[2.0.8,)"
     ordering="AFTER"
     side="BOTH"
