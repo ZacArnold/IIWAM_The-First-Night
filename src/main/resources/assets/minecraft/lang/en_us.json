@@ -1,0 +1,13 @@
+{
+  "block.minecraft.stone": "Shale",
+  "block.minecraft.stone_slab": "Shale Slab",
+  "block.minecraft.stone_stairs": "Shale Stairs",
+
+  "block.minecraft.cobblestone": "Shale Cobblestone",
+  "block.minecraft.cobblestone_slab": "Shale Cobblestone Slab",
+  "block.minecraft.cobblestone_stairs": "Shale Cobblestone Stairs",
+  "block.minecraft.cobblestone_wall": "Shale Cobblestone Wall",
+
+  "block.minecraft.smooth_stone": "Polished Shale",
+  "block.minecraft.smooth_stone_slab": "Polished Shale Slab"
+}
