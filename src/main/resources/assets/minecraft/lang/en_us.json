@@ -27,5 +27,6 @@
   "block.minecraft.infested_cobblestone": "Infested Shale Cobblestone",
   "block.minecraft.infested_stone_bricks": "Infested Shale Bricks",
   "block.minecraft.infested_chiseled_stone_bricks": "Infested Chiseled Shale Bricks",
-  "block.minecraft.infested_cracked_stone_bricks": "Infested Cracked Shale Bricks"
+  "block.minecraft.infested_cracked_stone_bricks": "Infested Cracked Shale Bricks",
+  "block.minecraft.infested_mossy_stone_bricks": "Infested Mossy Shale Bricks"
 }
