@@ -1,0 +1,18 @@
+{
+  "block.quark.cobblestone_bricks": "Shale Cobblestone Bricks",
+  "block.quark.cobblestone_brick_slab": "Shale Cobblestone Brick Slab",
+  "block.quark.cobblestone_brick_stairs": "Shale Cobblestone Brick Stairs",
+  "block.quark.cobblestone_brick_wall": "Shale Cobblestone Brick Wall",
+  "block.quark.cobblestone_brick_vertical_slab": "Shale Cobblestone Brick Vertical Slab",
+
+  "block.quark.mossy_cobblestone_bricks": "Mossy Shale Cobblestone Bricks",
+  "block.quark.mossy_cobblestone_brick_slab": "Mossy Shale Cobblestone Brick Slab",
+  "block.quark.mossy_cobblestone_brick_stairs": "Mossy Shale Cobblestone Brick Stairs",
+  "block.quark.mossy_cobblestone_brick_wall": "Mossy Shale Cobblestone Brick Wall",
+  "block.quark.mossy_cobblestone_brick_vertical_slab": "Mossy Shale Cobblestone Brick Vertical Slab",
+
+  "block.quark.stone_vertical_slab": "Shale Vertical Slab",
+  "block.quark.cobblestone_vertical_slab": "Shale Cobblestone Vertical Slab",
+  "block.quark.stone_brick_vertical_slab": "Shale Brick Vertical Slab",
+  "block.quark.mossy_stone_brick_vertical_slab": "Mossy Shale Brick Vertical Slab"
+}

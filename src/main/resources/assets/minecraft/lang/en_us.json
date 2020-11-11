@@ -3,11 +3,29 @@
   "block.minecraft.stone_slab": "Shale Slab",
   "block.minecraft.stone_stairs": "Shale Stairs",
 
+  "block.minecraft.stone_bricks": "Shale Bricks",
+  "block.minecraft.stone_brick_slab": "Shale Brick Slab",
+  "block.minecraft.stone_brick_stairs": "Shale Brick Stairs",
+  "block.minecraft.stone_brick_wall": "Shale Brick Wall",
+  "block.minecraft.chiseled_stone_bricks": "Chiseled Shale Bricks",
+  "block.minecraft.cracked_stone_bricks": "Cracked Shale Bricks",
+
+  "block.minecraft.mossy_stone_bricks": "Mossy Shale Bricks",
+  "block.minecraft.mossy_stone_brick_slab": "Mossy Shale Brick Slab",
+  "block.minecraft.mossy_stone_brick_stairs": "Mossy Shale Brick Stairs",
+  "block.minecraft.mossy_stone_brick_wall": "Mossy Shale Brick Wall",
+
+  "block.minecraft.smooth_stone": "Polished Shale",
+  "block.minecraft.smooth_stone_slab": "Polished Shale Slab",
+
   "block.minecraft.cobblestone": "Shale Cobblestone",
   "block.minecraft.cobblestone_slab": "Shale Cobblestone Slab",
   "block.minecraft.cobblestone_stairs": "Shale Cobblestone Stairs",
   "block.minecraft.cobblestone_wall": "Shale Cobblestone Wall",
 
-  "block.minecraft.smooth_stone": "Polished Shale",
-  "block.minecraft.smooth_stone_slab": "Polished Shale Slab"
+  "block.minecraft.infested_stone": "Infested Shale",
+  "block.minecraft.infested_cobblestone": "Infested Shale Cobblestone",
+  "block.minecraft.infested_stone_bricks": "Infested Shale Bricks",
+  "block.minecraft.infested_chiseled_stone_bricks": "Infested Chiseled Shale Bricks",
+  "block.minecraft.infested_cracked_stone_bricks": "Infested Cracked Shale Bricks"
 }
