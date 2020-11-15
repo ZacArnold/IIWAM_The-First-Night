@@ -1,5 +1,5 @@
 {
-  "parent": "block/stairs",
+  "parent": "minecraft:block/stairs",
   "textures": {
     "bottom": "first_night:block/granite_cobblestone",
     "top": "first_night:block/granite_cobblestone",

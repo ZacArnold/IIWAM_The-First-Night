@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "first_night:andesite_cobblestone"
+    "all": "first_night:block/andesite_cobblestone"
   }
 }
