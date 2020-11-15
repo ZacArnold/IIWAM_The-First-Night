@@ -1,8 +1,6 @@
 {
   "parent": "block/slab",
   "textures": {
-    "bottom": "first_night:block/diorite_cobblestone",
-    "top": "first_night:block/diorite_cobblestone",
-    "side": "first_night:block/diorite_cobblestone"
+    "all": "first_night:block/diorite_cobblestone"
   }
 }

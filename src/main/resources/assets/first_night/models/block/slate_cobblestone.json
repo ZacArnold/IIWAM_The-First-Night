@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "first_night:blocks/slate_cobblestone"
+    "all": "first_night:block/slate_cobblestone"
   }
 }

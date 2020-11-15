@@ -20,7 +20,7 @@ public class FirstNightBlocks {
     public static final RegistryObject<Block> ANDESITE_COBBLESTONE_SLAB = HELPER.createBlock("andesite_cobblestone_slab", () ->
             new SlabBlock(Block.Properties.from(Blocks.COBBLESTONE_SLAB)), FirstNight.FIRST_NIGHT_TAB);
     public static final RegistryObject<Block> ANDESITE_COBBLESTONE_STAIRS = HELPER.createBlock("andesite_cobblestone_stairs", () ->
-            new StairsBlock(ANDESITE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(Blocks.COBBLESTONE_STAIRS)), FirstNight.FIRST_NIGHT_TAB);
+            new StairsBlock(() -> ANDESITE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(Blocks.COBBLESTONE_STAIRS)), FirstNight.FIRST_NIGHT_TAB);
     public static final RegistryObject<Block> ANDESITE_COBBLESTONE_WALL = HELPER.createBlock("andesite_cobblestone_wall", () ->
             new WallBlock(Block.Properties.from(Blocks.COBBLESTONE_WALL)), FirstNight.FIRST_NIGHT_TAB);
     //Mossy Andesite Cobble Block Set
@@ -29,7 +29,7 @@ public class FirstNightBlocks {
     public static final RegistryObject<Block> MOSSY_ANDESITE_COBBLESTONE_SLAB = HELPER.createBlock("mossy_andesite_cobblestone_slab", () ->
             new SlabBlock(Block.Properties.from(Blocks.COBBLESTONE_SLAB)), FirstNight.FIRST_NIGHT_TAB);
     public static final RegistryObject<Block> MOSSY_ANDESITE_COBBLESTONE_STAIRS = HELPER.createBlock("mossy_andesite_cobblestone_stairs", () ->
-            new StairsBlock(MOSSY_ANDESITE_COBBLESTONE.get().getDefaultState(), Block.Properties.from(Blocks.COBBLESTONE_STAIRS)), FirstNight.FIRST_NIGHT_TAB);
+            new StairsBlock(MOSSY_ANDESITE_COBBLESTONE.get().getDefaultState(),Block.Properties.from(Blocks.COBBLESTONE_STAIRS)), FirstNight.FIRST_NIGHT_TAB);
     public static final RegistryObject<Block> MOSSY_ANDESITE_COBBLESTONE_WALL = HELPER.createBlock("mossy_andesite_cobblestone_wall", () ->
             new WallBlock(Block.Properties.from(Blocks.COBBLESTONE_WALL)), FirstNight.FIRST_NIGHT_TAB);
 
