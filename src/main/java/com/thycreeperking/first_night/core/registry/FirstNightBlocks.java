@@ -2,7 +2,6 @@ package com.thycreeperking.first_night.core.registry;
 
 import com.teamabnormals.abnormals_core.core.utils.RegistryHelper;
 import com.thycreeperking.first_night.core.FirstNight;
-import com.thycreeperking.first_night.common.block.CobblestoneBlock;
 import net.minecraft.block.*;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
