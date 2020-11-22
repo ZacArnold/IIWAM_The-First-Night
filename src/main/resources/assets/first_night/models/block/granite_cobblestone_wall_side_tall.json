@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_wall_side_tall",
+  "textures": {
+    "wall": "first_night:block/granite_cobblestone"
+  }
+}
