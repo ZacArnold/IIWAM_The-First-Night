@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "first_night:block/chorus_basalt_cobblestone"
+  }
+}
