@@ -15,6 +15,7 @@
   "block.quark.cobblestone_vertical_slab": "Shale Cobblestone Vertical Slab",
   "block.quark.stone_brick_vertical_slab": "Shale Brick Vertical Slab",
   "block.quark.mossy_stone_brick_vertical_slab": "Mossy Shale Brick Vertical Slab",
+  "block.quark.mossy_cobblestone_vertical_slab": "Mossy Shale Cobblestone Vertical Slab",
 
 
   "quark.gui.button.sort": "Sort",
@@ -596,7 +597,6 @@
   "block.quark.end_stone_brick_vertical_slab": "End Stone Brick Vertical Slab",
   "block.quark.granite_vertical_slab": "Granite Vertical Slab",
   "block.quark.jungle_vertical_slab": "Jungle Vertical Slab",
-  "block.quark.mossy_cobblestone_vertical_slab": "Mossy Cobblestone Vertical Slab",
   "block.quark.nether_brick_vertical_slab": "Nether Brick Vertical Slab",
   "block.quark.polished_andesite_vertical_slab": "Polished Andesite Vertical Slab",
   "block.quark.polished_diorite_vertical_slab": "Polished Diorite Vertical Slab",
