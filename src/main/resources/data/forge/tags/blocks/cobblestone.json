@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "first_night:andesite_cobblestone",
+    "first_night:diorite_cobblestone",
+    "first_night:granite_cobblestone",
+    "first_night:basalt_cobblestone",
+    "first_night:jasper_cobblestone",
+    "first_night:limestone_cobblestone",
+    "first_night:marble_cobblestone",
+    "first_night:slate_cobblestone"
+  ]
+}
