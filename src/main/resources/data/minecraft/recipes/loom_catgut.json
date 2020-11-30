@@ -1,0 +1,18 @@
+﻿{
+    "type": "crafting_shaped",
+    "pattern": [
+        "CC",
+        "PP"
+    ],
+    "key": {
+        "C": {
+            "item": "first_night:catgut"
+        },
+        "P": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:loom"
+    }
+}

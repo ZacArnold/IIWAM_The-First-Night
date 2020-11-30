@@ -1,0 +1,20 @@
+﻿{
+    "type": "crafting_shaped",
+    "pattern": [
+        "BCB",
+        "B B",
+        "B B"
+    ],
+    "key": {
+        "C": {
+            "item": "first_night:catgut"
+        },
+        "B": {
+            "item": "minecraft:bamboo"
+        }
+    },
+    "result": {
+        "item": "minecraft:scaffolding",
+        "count": 6
+    }
+}
