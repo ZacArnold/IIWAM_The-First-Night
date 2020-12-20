@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "first_night:block/mossy_jasper_cobblestone_bricks_slab" },
+    "type=top": { "model": "first_night:block/mossy_jasper_cobblestone_bricks_slab_top" },
+    "type=double": { "model": "first_night:block/mossy_jasper_cobblestone_bricks" }
+  }
+}
