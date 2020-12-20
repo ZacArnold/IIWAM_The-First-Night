@@ -1,0 +1,6 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "first_night:block/marble_cobblestone_bricks"
+  }
+}

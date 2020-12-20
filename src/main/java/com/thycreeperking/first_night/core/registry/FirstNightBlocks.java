@@ -3,6 +3,7 @@ package com.thycreeperking.first_night.core.registry;
 import com.teamabnormals.abnormals_core.core.utils.RegistryHelper;
 import com.thycreeperking.first_night.core.FirstNight;
 import net.minecraft.block.*;
+import net.minecraft.item.ItemGroup;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
 
@@ -13,6 +14,14 @@ public class FirstNightBlocks {
 
 
     ////////////////////////////////////////////////////////////FIRST NIGHT BLOCKS////////////////////////////////////////////////////////////
+
+    //Villager POIs//
+    public static final RegistryObject<Block> ENGINEERING_TABLE = HELPER.createBlock("engineering_table", () ->
+            new Block(AbstractBlock.Properties.from(Blocks.CARTOGRAPHY_TABLE)), ItemGroup.DECORATIONS);
+    public static final RegistryObject<Block> DEMOLITION_WORKBENCH = HELPER.createBlock("demolition_workbench", () ->
+            new Block(AbstractBlock.Properties.from(Blocks.FLETCHING_TABLE)), ItemGroup.DECORATIONS);
+
+
     //Cobblestone Blocks//
     //Andesite Cobble Block Set
     public static final RegistryObject<Block> ANDESITE_COBBLESTONE = HELPER.createBlock("andesite_cobblestone", () ->

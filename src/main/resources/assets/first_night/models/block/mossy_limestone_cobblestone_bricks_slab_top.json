@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "first_night:block/mossy_limestone_cobblestone_bricks",
+    "top": "first_night:block/mossy_limestone_cobblestone_bricks",
+    "side": "first_night:block/mossy_limestone_cobblestone_bricks"
+  }
+}
