@@ -17,9 +17,9 @@ public class FirstNightBlocks {
 
     //Villager POIs//
     public static final RegistryObject<Block> ENGINEERING_TABLE = HELPER.createBlock("engineering_table", () ->
-            new Block(AbstractBlock.Properties.from(Blocks.CARTOGRAPHY_TABLE)), ItemGroup.DECORATIONS);
+            new Block(AbstractBlock.Properties.from(Blocks.CARTOGRAPHY_TABLE)), FirstNight.FIRST_NIGHT_TAB);
     public static final RegistryObject<Block> DEMOLITION_WORKBENCH = HELPER.createBlock("demolition_workbench", () ->
-            new Block(AbstractBlock.Properties.from(Blocks.FLETCHING_TABLE)), ItemGroup.DECORATIONS);
+            new Block(AbstractBlock.Properties.from(Blocks.FLETCHING_TABLE)), FirstNight.FIRST_NIGHT_TAB);
 
 
     //Cobblestone Blocks//
