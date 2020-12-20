@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:block/cube",
   "textures": {
-    "particle": "minecraft:block/engineering_table_front",
-    "north": "minecraft:block/engineering_table_front",
-    "south": "minecraft:block/engineering_table_side",
-    "east": "minecraft:block/engineering_table_side",
-    "west": "minecraft:block/engineering_table_front",
-    "up": "minecraft:block/engineering_table_top",
-    "down": "minecraft:block/engineering_table_bottom"
+    "particle": "first_night:block/engineering_table_front",
+    "north": "first_night:block/engineering_table_front",
+    "south": "first_night:block/engineering_table_side",
+    "east": "first_night:block/engineering_table_side",
+    "west": "first_night:block/engineering_table_front",
+    "up": "first_night:block/engineering_table_top",
+    "down": "first_night:block/engineering_table_bottom"
   }
 }

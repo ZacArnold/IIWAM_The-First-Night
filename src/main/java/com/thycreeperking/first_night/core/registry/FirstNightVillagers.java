@@ -43,12 +43,12 @@ public class FirstNightVillagers {
     public static final RegistryObject<VillagerProfession> MECHANIC = PROFESSIONS.register("mechanic", () -> new VillagerProfession("mechanic", ENGINEERING_TABLE.get(), ImmutableSet.of(), ImmutableSet.of(), SoundEvents.ENTITY_VILLAGER_WORK_BUTCHER));
     public static final RegistryObject<VillagerProfession> PYROTECHNIC = PROFESSIONS.register("pyrotechnic", () -> new VillagerProfession("pyrotechnic", DEMOLITION_WORKBENCH.get(), ImmutableSet.of(), ImmutableSet.of(), SoundEvents.ENTITY_VILLAGER_WORK_MASON));
 
-    public static void registerVillagerTypes() {
-        GiveHeroGiftsTask.GIFTS.put(MECHANIC.get(), new ResourceLocation(FirstNight.MOD_ID, "gameplay/hero_of_the_village/mechanic_gift"));
-        GiveHeroGiftsTask.GIFTS.put(PYROTECHNIC.get(), new ResourceLocation(FirstNight.MOD_ID, "gameplay/hero_of_the_village/pyrotechnic_gift"));
+    //public static void registerVillagerTypes() {
+    //    GiveHeroGiftsTask.GIFTS.put(MECHANIC.get(), new ResourceLocation(FirstNight.MOD_ID, "gameplay/hero_of_the_village/mechanic_gift"));
+    //    GiveHeroGiftsTask.GIFTS.put(PYROTECHNIC.get(), new ResourceLocation(FirstNight.MOD_ID, "gameplay/hero_of_the_village/pyrotechnic_gift"));
 
-        setupVillagerHouses();
-    }
+    //    setupVillagerHouses();
+    //}
 
     public static void registerPOIs() {
         try {
