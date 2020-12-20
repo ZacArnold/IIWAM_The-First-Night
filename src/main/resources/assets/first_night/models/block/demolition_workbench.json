@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "minecraft:block/demolition_workbench_front",
+    "north": "minecraft:block/demolition_workbench_front",
+    "south": "minecraft:block/demolition_workbench_side",
+    "east": "minecraft:block/demolition_workbench_side",
+    "west": "minecraft:block/demolition_workbench_front",
+    "up": "minecraft:block/demolition_workbench_top",
+    "down": "minecraft:block/demolition_workbench_bottom"
+  }
+}
