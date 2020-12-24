@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " XX",
+    " #X",
+    " #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:wooden_axe"
+  },
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "first_night:flag",
+        "flag": "flint_tools"
+      }
+    }
+  ]
+}
