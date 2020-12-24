@@ -1,6 +1,7 @@
 package com.thycreeperking.first_night.core.registry;
 
 import com.teamabnormals.abnormals_core.core.utils.RegistryHelper;
+import com.thycreeperking.first_night.common.block.CobbBlock;
 import com.thycreeperking.first_night.core.FirstNight;
 import net.minecraft.block.*;
 import net.minecraft.item.ItemGroup;
@@ -21,6 +22,9 @@ public class FirstNightBlocks {
     public static final RegistryObject<Block> DEMOLITION_WORKBENCH = HELPER.createBlock("demolition_workbench", () ->
             new Block(AbstractBlock.Properties.from(Blocks.FLETCHING_TABLE)), FirstNight.FIRST_NIGHT_TAB);
 
+    //Cobb Blocks
+    public static final RegistryObject<Block> ROUGH_COBB = HELPER.createBlock("rough_cobb", () ->
+            new CobbBlock(AbstractBlock.Properties.create()));
 
     //Cobblestone Blocks//
     //Andesite Cobble Block Set
