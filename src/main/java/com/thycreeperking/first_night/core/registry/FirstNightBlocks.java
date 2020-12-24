@@ -24,7 +24,7 @@ public class FirstNightBlocks {
 
     //Cobb Blocks
     public static final RegistryObject<Block> ROUGH_COBB = HELPER.createBlock("rough_cobb", () ->
-            new CobbBlock(AbstractBlock.Properties.create()));
+            new CobbBlock(AbstractBlock.Properties.from(Blocks.COARSE_DIRT)), FirstNight.FIRST_NIGHT_TAB);
 
     //Cobblestone Blocks//
     //Andesite Cobble Block Set
