@@ -1,8 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "XX",
-    "X#",
+    "XXX",
+    " #",
     " #"
   ],
   "key": {
@@ -14,15 +14,6 @@
     }
   },
   "result": {
-    "item": "minecraft:wooden_axe"
-  },
-  "conditions": [
-    {
-      "type": "forge:not",
-      "value": {
-        "type": "first_night:flag",
-        "flag": "flint_tools"
-      }
-    }
-  ]
+    "item": "minecraft:air"
+  }
 }
