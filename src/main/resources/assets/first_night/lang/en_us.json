@@ -2,8 +2,11 @@
   "itemGroup.first_night_tab": "IIWAM - The First Night",
 
 
-  "block.first_night.engineering_table": "Engineering Table",
-  "block.first_night.demolition_workbench": "Demolition Workbench",
+  "block.first_night.wrapped_string": "Wrapped String",
+  "block.first_night.wrapped_catgut": "Wrapped Catgut",
+
+  "block.first_night.rough_cobb": "Rough Cobb",
+  "block.first_night.cobb_bricks": "Cobb Bricks",
 
   "block.first_night.andesite_cobblestone": "Andesite Cobblestone",
   "block.first_night.andesite_cobblestone_slab": "Andesite Cobblestone Slab",
