@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "minecraft:block/wrapped_catgut_top",
+    "side": "minecraft:block/wrapped_catgut"
+  }
+}
