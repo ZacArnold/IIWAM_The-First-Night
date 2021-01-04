@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "minecraft:block/wrapped_catgut_horizontal",
+      "model": "first_night:block/wrapped_catgut_horizontal",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "minecraft:block/wrapped_catgut"
+      "model": "first_night:block/wrapped_catgut"
     },
     "axis=z": {
-      "model": "minecraft:block/wrapped_catgut_horizontal",
+      "model": "first_night:block/wrapped_catgut_horizontal",
       "x": 90
     }
   }

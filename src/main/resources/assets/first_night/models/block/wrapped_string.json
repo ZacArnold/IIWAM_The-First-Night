@@ -1,7 +1,7 @@
 {
-  "parent": "minecraft:block/cube_column",
+  "parent": "first_night:block/cube_column",
   "textures": {
-    "end": "minecraft:block/wrapped_string_top",
-    "side": "minecraft:block/wrapped_string"
+    "end": "first_night:block/wrapped_string_top",
+    "side": "first_night:block/wrapped_string"
   }
 }

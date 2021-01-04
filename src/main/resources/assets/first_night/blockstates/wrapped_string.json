@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "minecraft:block/wrapped_string_horizontal",
+      "model": "first_night:block/wrapped_string_horizontal",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "minecraft:block/wrapped_string"
+      "model": "first_night:block/wrapped_string"
     },
     "axis=z": {
-      "model": "minecraft:block/wrapped_string_horizontal",
+      "model": "first_night:block/wrapped_string_horizontal",
       "x": 90
     }
   }
