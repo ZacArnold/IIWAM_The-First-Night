@@ -1,7 +1,0 @@
-{
-  "parent": "first_night:block/cube_column_horizontal",
-  "textures": {
-    "end": "first_night:block/wrapped_catgut_top",
-    "side": "first_night:block/wrapped_catgut"
-  }
-}

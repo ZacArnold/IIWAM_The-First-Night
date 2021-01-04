@@ -1,5 +1,5 @@
 {
-  "parent": "first_night:block/cube_column",
+  "parent": "block/cube_column",
   "textures": {
     "end": "first_night:block/wrapped_string_top",
     "side": "first_night:block/wrapped_string"

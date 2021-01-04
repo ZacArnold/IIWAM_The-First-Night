@@ -23,9 +23,9 @@ public class FirstNightBlocks {
 
     //Wrapped String and Catgut
     public static final RegistryObject<Block> WRAPPED_STRING = HELPER.createBlock("wrapped_string", () ->
-            new Block(AbstractBlock.Properties.from(Blocks.WHITE_WOOL)), FirstNight.FIRST_NIGHT_TAB);
+            new RotatedPillarBlock(AbstractBlock.Properties.from(Blocks.WHITE_WOOL)), FirstNight.FIRST_NIGHT_TAB);
     public static final RegistryObject<Block> WRAPPED_CATGUT = HELPER.createBlock("wrapped_catgut", () ->
-            new Block(AbstractBlock.Properties.from(Blocks.WHITE_WOOL)), FirstNight.FIRST_NIGHT_TAB);
+            new RotatedPillarBlock(AbstractBlock.Properties.from(Blocks.WHITE_WOOL)), FirstNight.FIRST_NIGHT_TAB);
 
     //Cobblestone Blocks//
     //Andesite Cobble Block Set
