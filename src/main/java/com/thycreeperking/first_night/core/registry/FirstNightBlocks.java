@@ -21,12 +21,6 @@ public class FirstNightBlocks {
     public static final RegistryObject<Block> COBB_BRICKS = HELPER.createBlock("cobb_bricks", () ->
             new CobbBlock(AbstractBlock.Properties.from(Blocks.STONE_BRICKS)), FirstNight.FIRST_NIGHT_TAB);
 
-    //Wrapped String and Catgut
-    public static final RegistryObject<Block> WRAPPED_STRING = HELPER.createBlock("wrapped_string", () ->
-            new RotatedPillarBlock(AbstractBlock.Properties.from(Blocks.WHITE_WOOL)), FirstNight.FIRST_NIGHT_TAB);
-    public static final RegistryObject<Block> WRAPPED_CATGUT = HELPER.createBlock("wrapped_catgut", () ->
-            new RotatedPillarBlock(AbstractBlock.Properties.from(Blocks.WHITE_WOOL)), FirstNight.FIRST_NIGHT_TAB);
-
     //Cobblestone Blocks//
     //Andesite Cobble Block Set
     public static final RegistryObject<Block> ANDESITE_COBBLESTONE = HELPER.createBlock("andesite_cobblestone", () ->
@@ -149,6 +143,12 @@ public class FirstNightBlocks {
 
 
     ///Quark///
+    //Wrapped String and Catgut
+    public static final RegistryObject<Block> WRAPPED_STRING = HELPER.createCompatBlock("quark", "wrapped_string", () ->
+            new RotatedPillarBlock(AbstractBlock.Properties.from(Blocks.WHITE_WOOL)), FirstNight.FIRST_NIGHT_TAB);
+    public static final RegistryObject<Block> WRAPPED_CATGUT = HELPER.createCompatBlock("quark", "wrapped_catgut", () ->
+            new RotatedPillarBlock(AbstractBlock.Properties.from(Blocks.WHITE_WOOL)), FirstNight.FIRST_NIGHT_TAB);
+
     //Voidstone Cobble Block Set
     public static final RegistryObject<Block> BASALT_COBBLESTONE = HELPER.createCompatBlock("quark", "basalt_cobblestone", () ->
             new Block(Block.Properties.from(Blocks.COBBLESTONE)), FirstNight.FIRST_NIGHT_TAB);
