@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "first_night:diorite_cobblestone_bricks_wall"
+        }
+      ]
+    }
+  ]
+}
