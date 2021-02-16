@@ -1,11 +1,9 @@
 package com.thycreeperking.first_night.core.registry;
 
 import com.teamabnormals.abnormals_core.core.utils.RegistryHelper;
+import com.thycreeperking.first_night.common.item.FireStarterItem;
 import com.thycreeperking.first_night.core.FirstNight;
 import com.thycreeperking.first_night.core.other.FirstNightFoods;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.SlabBlock;
 import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
@@ -25,5 +23,5 @@ public class FirstNightItems {
 
     //Tool Items
     public static final RegistryObject<Item> FIRE_STARTER = HELPER.createItem("fire_starter", () ->
-    new FlintAndSteelItem(new Item.Properties().maxStackSize(1).group(ItemGroup.TOOLS)));
+    new FireStarterItem(new Item.Properties().maxStackSize(1).group(ItemGroup.TOOLS)));
 }
