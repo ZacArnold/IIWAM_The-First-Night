@@ -36,11 +36,4 @@ public class FirstNight
     private void setup(final FMLCommonSetupEvent event) { }
 
     private void doClientStuff(final FMLClientSetupEvent event) { }
-
-    public static final ItemGroup FIRST_NIGHT_TAB = new ItemGroup("first_night_tab") {
-        @Override
-        public ItemStack createIcon() {
-            return new ItemStack(FirstNightItems.FLINT_PICKAXE.get());
-        }
-    };
 }

@@ -146,10 +146,5 @@
 
 
   "item.first_night.catgut": "Catgut",
-  "item.first_night.roasted_carrot": "Roasted Carrot",
-
-  "item.first_night.flint_pickaxe": "Flint Pickaxe",
-  "item.first_night.flint_axe": "Flint Axe"
-
-
+  "item.first_night.roasted_carrot": "Roasted Carrot"
 }

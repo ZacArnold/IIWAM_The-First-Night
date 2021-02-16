@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "first_night:item/flint_pickaxe"
-  }
-}
