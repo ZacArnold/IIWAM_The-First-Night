@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "first_night:wrapped_catgut"
+    }
+  ],
+  "result":
+  {
+    "item": "first_night:catgut",
+    "count": 9
+  }
+}
