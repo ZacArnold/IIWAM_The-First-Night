@@ -33,7 +33,7 @@ public class FireStarterItem extends Item {
             iworld.playSound(playerentity, blockpos, SoundEvents.ITEM_FLINTANDSTEEL_USE, SoundCategory.BLOCKS, 1.0F, random.nextFloat() * 0.4F + 0.8F);
             iworld.setBlockState(blockpos, blockstate.with(BlockStateProperties.LIT, Boolean.valueOf(true)), 11);
             if (playerentity != null) {
-                context.getItem().damageItem(1, playerentity, (p_219999_1_) -> {
+                context.getItem().damageItem(65, playerentity, (p_219999_1_) -> {
                     p_219999_1_.sendBreakAnimation(context.getHand());
                 });
             }
@@ -48,7 +48,7 @@ public class FireStarterItem extends Item {
                 ItemStack itemstack = context.getItem();
                 if (playerentity instanceof ServerPlayerEntity) {
                     CriteriaTriggers.PLACED_BLOCK.trigger((ServerPlayerEntity)playerentity, blockpos1, itemstack);
-                    itemstack.damageItem(1, playerentity, (p_219998_1_) -> {
+                    itemstack.damageItem(65, playerentity, (p_219998_1_) -> {
                         p_219998_1_.sendBreakAnimation(context.getHand());
                     });
                 }
