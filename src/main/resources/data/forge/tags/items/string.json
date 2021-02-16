@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "first_night:catgut"
+    "first_night:catgut",
+    "minecraft:string"
   ]
 }
