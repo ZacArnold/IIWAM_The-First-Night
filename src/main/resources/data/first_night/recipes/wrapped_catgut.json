@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "first_night:catgut"
+    }
+  },
+  "result": {
+    "item": "first_night:wrapped_catgut"
+  }
+}
